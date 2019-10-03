@@ -1,2 +1,4 @@
 # k8s-vault
-K8s and vault exercise
+
+# create nampespace
+kubectl create namespace team-blue

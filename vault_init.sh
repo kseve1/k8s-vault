@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ➜ vault-dockercompose-v2 git:(26sep2019) ✗ vim vault_create.sh 
 
 #!/bin/bash
@@ -24,3 +25,8 @@ export VAULT_TOKEN="$ROOT_TOKEN"
 /usr/bin/vault kv put secret/foo value=bar
 
 
+=======
+#!/bin/sh
+
+vault server -config /home/vault/vault.hcl
+>>>>>>> f175924bb10ffe0fff841e63c95d7869eef51927
